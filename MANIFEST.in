@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rhasan *.css
+recursive-include rhasan *.csv
+recursive-include rhasan *.html
+recursive-include rhasan *.ico
+recursive-include rhasan *.js
+recursive-include rhasan *.json
+recursive-include rhasan *.md
+recursive-include rhasan *.png
+recursive-include rhasan *.py
+recursive-include rhasan *.svg
+recursive-include rhasan *.txt
+recursive-exclude rhasan *.pyc
